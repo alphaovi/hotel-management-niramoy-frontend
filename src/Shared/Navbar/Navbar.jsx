@@ -5,7 +5,7 @@ import { MdPerson3 } from "react-icons/md";
 
 const Navbar = () => {
   return (
-    <nav className="navbar border border-white w-3/4 mx-auto">
+    <nav className="navbar border border-white w-3/4 mx-auto relative bg-white ">
       <div  className="flex items-center">
         <div className="">
           <img className="w-24 h-14" src={companyLogo} alt="company logo" />

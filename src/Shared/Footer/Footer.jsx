@@ -1,12 +1,12 @@
-import backgroundImage from "../../assets/images/restaurant/f909efb883f56845dcebe7cdc85a607c.jfif";
-import clockImage from "../../assets/images/restaurant/clock-Vector.png";
-import phoneImage from "../../assets/images/restaurant/PhoneVector.png";
-import messageImage from "../../assets/images/restaurant/messageVector.png";
-import locationImage from "../../assets/images/restaurant/locationVector.png";
-import facebookImg from "../../assets/images/restaurant/facebook.png";
-import linkedInImg from "../../assets/images/restaurant/linkedIn.png";
-import twitterImg from "../../assets/images/restaurant/twitter.png";
-import instagram from "../../assets/images/restaurant/instagram.png";
+// import backgroundImage from "../../assets/images/restaurant/f909efb883f56845dcebe7cdc85a607c.jfif";
+// import clockImage from "../../assets/images/restaurant/clock-Vector.png";
+// import phoneImage from "../../assets/images/restaurant/PhoneVector.png";
+// import messageImage from "../../assets/images/restaurant/messageVector.png";
+// import locationImage from "../../assets/images/restaurant/locationVector.png";
+// import facebookImg from "../../assets/images/restaurant/facebook.png";
+// import linkedInImg from "../../assets/images/restaurant/linkedIn.png";
+// import twitterImg from "../../assets/images/restaurant/twitter.png";
+// import instagram from "../../assets/images/restaurant/instagram.png";
 const Footer = () => {
   return (
     <footer>

@@ -6,7 +6,7 @@ import { MdPerson3 } from "react-icons/md";
 
 const HeaderTop = () => {
   return (
-    <section className="bg-[#AB8A23] flex gap-20 items-center px-36 py-5 text-white">
+    <section className="bg-[#AB8A23] flex gap-20 items-center px-36 py-5 text-white ">
       <div className="text-white flex gap-4 items-center font-bold">
         <p className="flex items-center">
           {" "}
