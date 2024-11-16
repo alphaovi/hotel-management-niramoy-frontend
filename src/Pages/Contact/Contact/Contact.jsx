@@ -1,5 +1,6 @@
 import ContactBanner from "../ContactBanner/ContactBanner";
 import ContactForm from "../ContactForm/ContactForm";
+import HotelMap from "../HotelMap/HotelMap";
 
 
 const Contact = () => {
@@ -7,6 +8,7 @@ const Contact = () => {
         <div>
             <ContactBanner></ContactBanner>
             <ContactForm></ContactForm>
+            <HotelMap></HotelMap>
         </div>
     );
 };
