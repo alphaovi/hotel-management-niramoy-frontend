@@ -42,7 +42,7 @@ const Banner = () => {
           sepnd your beautiful <br /> moment
         </h1>
       </div>
-      <div className="border border-red-900">
+      <div className="border border-red-900 flex justify-center">
         <div className=" p-20 shadow-2xl ">
           <form action="">
             <input
