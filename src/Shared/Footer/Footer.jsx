@@ -1,65 +1,81 @@
-// import backgroundImage from "../../assets/images/restaurant/f909efb883f56845dcebe7cdc85a607c.jfif";
-// import clockImage from "../../assets/images/restaurant/clock-Vector.png";
-// import phoneImage from "../../assets/images/restaurant/PhoneVector.png";
-// import messageImage from "../../assets/images/restaurant/messageVector.png";
-// import locationImage from "../../assets/images/restaurant/locationVector.png";
-// import facebookImg from "../../assets/images/restaurant/facebook.png";
-// import linkedInImg from "../../assets/images/restaurant/linkedIn.png";
-// import twitterImg from "../../assets/images/restaurant/twitter.png";
-// import instagram from "../../assets/images/restaurant/instagram.png";
+import { Link } from "react-router-dom";
+import backgroundImage from "../../assets/images/hotel-footer/footer-background.jfif";
+import hotelIcon from "../../assets/images/hotel-footer/logo_dark.png";
+import { FaLinkedin } from "react-icons/fa";
+import { FaInstagram } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa6";
+import { FaFacebook } from "react-icons/fa";
+import { FaLocationDot } from "react-icons/fa6";
+import { IoIosMail } from "react-icons/io";
+import { FaPhoneAlt } from "react-icons/fa";
+
 const Footer = () => {
   return (
     <footer>
       <div>
         <div
-          className="hero lg:min-h-[720px] min-h-[999px]"
+          className="hero lg:min-h-[400px] min-h-[550px]"
           style={{ backgroundImage: `url(${backgroundImage})` }}
         >
           <div className="hero-overlay bg-opacity-80"></div>
-          <div className="hero-content text-neutral-content text-center">
-            <div className="text-white">
-              <h1 className="lg:mb-5 lg:text-4xl  sm:text-3xl lg:-mt-60 -mt-96 font-bold">
-                We ready to have you the best dining experiences
-              </h1>
-            </div>
-          </div>
-          <div className="grid lg:grid-cols-4 lg:gap-40 sm:grid-cols-1 text-white algin items-center text-center  lg:mt-0 mt-52 font-bold">
-            <div className="">
-              <img className="mx-auto lg:mb-5 mb-2" src={clockImage} alt="" />
-              <h3 className="text-xl lg:mb-5 mb-2 uppercase">Opening Hours</h3>
-              <p>Monday-Sunday</p>
-              <p>9.00 AM to 11:30 PM </p>
-            </div>
-            <div className="">
-              <img className="mx-auto lg:mb-5 mb-3 lg:mt-0 mt-3" src={phoneImage} alt="" />
-              <h3 className="text-xl mb-5 uppercase">Opening Hours</h3>
-              <p>Monday-Sunday</p>
-              <p>9.00 AM to 11:30 PM </p>
+          <div className="grid grid-cols-4 gap-6 text-white p-20">
+            <div>
+              <Link to={"/"}>
+                <img className="h-20 w-20" src={hotelIcon} alt="" />
+              </Link>
+              <p className="text-white">
+                Maecenas nec odio et ante tincid empus. Donec vitae sapien ut
+                libero venaucibus. Nullam quis ante. Etiam sit amet.
+              </p>
+              <div className="flex gap-2 mt-2">
+                <FaFacebook className="w-10 h-10 bg-gray-800  text-white rounded-full p-2" />
+                <FaTwitter className="w-10 h-10 bg-gray-800 text-white rounded-full p-2" />
+                <FaInstagram className="w-10 h-10 bg-gray-800 text-white rounded-full p-2" />
+                <FaLinkedin className="w-10 h-10 bg-gray-800  text-white rounded-full p-2" />
+              </div>
             </div>
             <div>
-              <img className="mx-auto mb-5 lg:mt-0 mt-3" src={messageImage} alt="" />
-              <h3 className="text-xl mb-5 uppercase">Opening Hours</h3>
-              <p>Monday-Sunday</p>
-              <p>9.00 AM to 11:30 PM </p>
+              <h3 className="text-2xl font-bold">Company</h3>
+              <div className="mt-5">
+                <li>FAQs</li>
+                <li>Contact</li>
+                <li>Blog</li>
+              </div>
             </div>
             <div>
-              <img className="mx-auto mb-5 lg:mt-0 mt-3" src={locationImage} alt="" />
-              <h3 className="text-xl mb-5 uppercase">Opening Hours</h3>
-              <p>Monday-Sunday</p>
-              <p>9.00 AM to 11:30 PM </p>
+              <h3 className="text-2xl font-bold">Useful Link</h3>
+              <div className="mt-5">
+                <li>Privacy Policy</li>
+                <li>Terms of Service</li>
+                <li>Refund and Cancellation Policy</li>
+              </div>
+            </div>
+            <div>
+              <h3 className="text-2xl font-bold">Contact Us</h3>
+              <div className="flex gap-4 mt-5">
+                <p className="bg-yellow-700 flex justify-center p-1 items-center rounded-full">
+                  <FaLocationDot />
+                </p>
+                <p>Dhaka Barisal Main Road, Faritpur</p>
+              </div>
+              <div className="flex gap-4 mt-5">
+                <p className="bg-yellow-700 flex justify-center p-2 items-center rounded-full">
+                  <IoIosMail />
+                </p>
+                <p>Info@hotelniramoy.com</p>
+              </div>
+              <div className="flex gap-4 mt-5">
+                <p className="bg-yellow-700 flex justify-center p-2 items-center rounded-full">
+                  <FaPhoneAlt />
+                </p>
+                <p>+880160212225</p>
+              </div>
             </div>
           </div>
         </div>
-        <div className="flex gap-4 lg:-mt-40 -mt-24 justify-center">
-          <img src={facebookImg} alt="" />
-          <img src={twitterImg} alt="" />
-          <img src={instagram} alt="" />
-          <img src={linkedInImg} alt="" />
-        </div>
-        <div className="text-center text-white">
-          <p>
-          © 2023 All Rights Reserved 
-          </p>
+
+        <div className="text-center text-white bg-black p-5">
+          <p className="mt-5">© 2024 All Rights Reserved</p>
         </div>
       </div>
     </footer>
