@@ -3,7 +3,7 @@ import { RiContactsBook2Fill } from "react-icons/ri";
 
 const BookRooms = () => {
     return (
-        <div className="p-40 relative flex flex-cols gap-6">
+        <div className="p-40 relative flex flex-cols gap-6 justify-center">
       <div className="">
         <div className="mx-auto w-96">
           <img className="h-full w-[700px]" src={featureRoom} alt="" />
