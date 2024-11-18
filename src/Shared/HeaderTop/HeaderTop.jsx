@@ -22,7 +22,7 @@ const HeaderTop = () => {
       <div className="flex lg:gap-6 gap-2 lg:ml-72">
         <label className="bg-transparent flex items-center" htmlFor="language"><GrLanguage /></label>
         <select
-          className="bg-transparent text-white bg-[#AB8A23]"
+          className="text-white bg-[#AB8A23]"
           name="language"
           id="language"
         >
